@@ -9,9 +9,10 @@ app.get('/home',(req,res)=>{
     app.get('/service',(req,res)=>{
         res.send("mehandi designs,Natural henna cones,Haldi henna,Engagement henna")
         })
-        app.get('/contact us',(req,res)=>{
-            res.send("Eira henna studio,sarovaram building,karumady po,alappuzha,phn:8086949416")
+        app.get('/contactus',(req,res)=>{
+            res.send("Eira henna studio,sarovaram building,karumady po,alappuzha,phn:8921336789")
             })
+           
 app.listen(3000,()=>{
 console.log("server started at http://localhost:3000/")
 })
